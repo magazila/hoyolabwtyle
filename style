@@ -1,0 +1,124 @@
+body {
+	margin: 0 auto;
+}
+.mhy-sticky-nav {
+	flex-grow: 0;
+	margin-left: 10px;
+}
+.mhy-sticky-nav__fixed {
+	top: 85px;
+}
+.mhy-banner {
+	display: none;
+}
+.root-page-container {
+	width: 1600px;
+	display: flex;
+	flex-direction: row;
+	align-content: space-around;
+	justify-content: space-between;
+}
+.mhy-layout {
+	width: 1590px;
+	margin-top: 30px;
+}
+.mhy-layout__main {
+	width: 1220px;
+}
+.mhy-page-header-mask {
+	width: 1220px;
+}
+.mhy-article-list .mhy-article-card {
+	width: 33%;
+}
+.mhy-article-list__body, .mhy-account-center-main-content__list {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: flex-end;
+	align-content: center;
+}
+.mhy-float-dialog {
+	width: 550px;
+}
+.header__inner {
+	position: relative;
+	width: 1800px;
+	height: 70px;
+	margin: 0 auto;
+}
+.mhy-avatar__sm {
+	width: 64px;
+	height: 64px;
+}
+.mhy-account-center-header {
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	margin-bottom: 8px;
+	padding: 25px;
+	background: #fff;
+	background-size: cover;
+}
+.mhy-account-center-header__data-num {
+	color: #000;
+}
+.mhy-account-center-header__data {
+	position: absolute;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	align-content: center;
+	top: 70px;
+	right: 100px;
+}
+.mhy-account-center-user .mhy-account-title__name {
+	font-size: 20px;
+	line-height: 26px;
+	position: absolute;
+	left: 150px;
+	top: 20px;
+	font-size: 30px;
+	height: 80px;
+}
+.mhy-account-title__level {
+	position: absolute;
+	top: 120px;
+	left: 50px;
+	cursor: pointer;
+	padding: 5px;
+	height: 30px !important;
+}
+.mhy-layout__sub {
+	width: 364px;
+	margin-top: 5px;
+}
+.mhy-layout {
+	width: 1590px;
+	margin-top: 8px;
+}
+
+.mhy-article-list .mhy-article-card {
+    width: 33%;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+.mhy-account-center-content .mhy-article-card {
+    margin-top: 8px;
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    min-height: 550px;
+}
+.mhy-game-record-card-list
+{margin-top: 20px!important;}
