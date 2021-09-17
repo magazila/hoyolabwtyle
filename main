@@ -1,0 +1,128 @@
+p {font-size: 16px;}
+
+
+.mhy-sticky-nav {
+	margin-right: 16px;
+	flex-grow: 0;
+}
+.mhy-banner {
+	display:none
+}
+.mhy-layout {
+	width: 1600px;
+}
+.mhy-layout__main {
+	width: 1220px;
+}
+.mhy-page-header-mask {
+	width: 1220px;
+}
+.mhy-article-card {
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	align-content: stretch;
+	justify-content: space-between;
+	align-items: stretch;
+	min-height: 550px;
+	flex-wrap: nowrap;
+}
+.mhy-article-list__body {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-content: stretch;
+	justify-content: space-between;
+}
+.mhy-img-article__list {
+	height: auto;
+}
+.mhy-img-article__list img {
+	max-width: 500px;
+	max-height: 700px;
+}
+.mhy-reply-box__toolbar {
+	font-size: 32px;
+}
+.mhy-emoticon {
+	width: 500px;
+}
+.mhy-emoticon .mhy-emoticon__item {
+	width: 80px;
+	height: 80px;
+}
+.mhy-emoticon__seticon {
+	width: 48px;
+	height: 48px;
+}
+.emoticon-image {
+	width: 70px;
+	height:auto;
+}
+.mhy-reply-box__textarea .reply-editor .ql-editor {
+	min-height: 250px;
+}
+.reply-card__left {
+	width: 150px;
+}
+.mhy-avatar__md {
+	width: 100px;
+	height: 100px;
+}
+.mhy-account-title__name {
+	font-size: 20px;
+}
+.mhy-article-card__data-item .mhy-icon, .mhy-article-card__data-item .mhy-symbol-icon, .mhy-article-card__data-item .mhy-img-icon {
+	font-size: 24px;
+}
+.mhy-article-page__content {
+	margin-top: 60px;
+}
+.mhy-account-center-main-content__list {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: baseline;
+}
+.mhy-account-center-header {
+	background: #fff none;
+	padding: 10px 40px 10px;
+}
+.mhy-account-center-header__data {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.mhy-account-center-reply-card {
+	width: 100%;
+}
+.mhy-side-section {
+	padding: 15px;
+}
+.mhy-avatar__sm {
+	width: 50px;
+	height: 50px;
+}
+.mhy-rocket {
+	position: relative;
+	width: 60px;
+	height: 60px;
+	left: -1474px;
+	bottom: -142px;
+}
+.mhy-contribution-card:first-child {
+    margin-top: 8px!important;
+}
+.mhy-contribution-card {
+    width: 49.9%;
+}
+
+.mhy-tools {
+    top: 344px;
+    width: 405px;
+    z-index: 800;
+    /* max-height: 513px; */
+    left: 304px;
+}
